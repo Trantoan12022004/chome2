@@ -15,9 +15,9 @@ const corsOptions = {
             ? ["https://chome2-frontend.onrender.com", "https://your-frontend-domain.com"]
             : [
                   "http://localhost:3000",
-                  "http://localhost:5173",
+                  "http://localhost:5500",
                   "http://127.0.0.1:3000",
-                  "http://127.0.0.1:5173",
+                  "http://.0.1270.1:5173",
               ],
     credentials: true,
     optionsSuccessStatus: 200,
