@@ -12,7 +12,11 @@ const app = express();
 const corsOptions = {
     origin:
         process.env.NODE_ENV === "production"
-            ? ["https://chome2-frontend.onrender.com", "https://your-frontend-domain.com"]
+            ? [
+                  "https://chome2-frontend.onrender.com",
+                  "https://your-frontend-domain.com",
+                  "http://127.0.0.1:5500",
+              ]
             : [
                   "http://localhost:3000",
                   "http://localhost:5500",
