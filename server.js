@@ -16,7 +16,7 @@ const corsOptions = {
                   "https://chome2-frontend.onrender.com",
                   "https://your-frontend-domain.com",
                   "http://127.0.0.1:5500",
-                  "https://trantoan12022004.github.io/chome2_fe/",
+                  "https://trantoan12022004.github.io",
               ]
             : [
                   "http://localhost:3000",
